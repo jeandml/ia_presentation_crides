@@ -1,6 +1,7 @@
 import requests
 from datetime import datetime, timedelta
 
+#Define function to download files based on start_date and end_date
 def download_files(start_date, end_date):
     base_url = "https://dsa-sor-data-dumps.s3.eu-central-1.amazonaws.com/sor-global-"
     date_format = "%Y-%m-%d"
